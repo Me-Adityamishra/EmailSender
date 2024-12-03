@@ -116,7 +116,7 @@ function EmailSender() {
                 setEmailData({ ...emailData, message: editorRef.current.getContent() })
               }
               onInit={(_evt, editor) => (editorRef.current = editor)}
-              apiKey="34ftac1z3a3qxv6qgpwvg2jievrmtiffdh6npcc6jqld175l"
+              apiKey=
               initialValue="<p>Type your message here...</p>"
               init={{
                 plugins: ['link', 'lists', 'media', 'table', 'wordcount'],
